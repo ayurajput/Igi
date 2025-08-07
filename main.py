@@ -2,9 +2,9 @@ import os
 import time
 from instagrapi import Client
 
-USERNAME = os.getenv("IG_USERNAME")
-PASSWORD = os.getenv("IG_PASSWORD")
-GROUP_NAME = os.getenv("IG_GROUP_NAME")
+USERNAME = os.getenv("vimalkumaw4")
+PASSWORD = os.getenv("ayush1234")
+GROUP_NAME = os.getenv("Insta Kings")
 WELCOME_DELAY = int(os.getenv("WELCOME_DELAY", 5))
 
 if not USERNAME or not PASSWORD or not GROUP_NAME:
